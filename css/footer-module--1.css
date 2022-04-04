@@ -1,0 +1,115 @@
+/* Reference Google fonts OpenSans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/*Variable Choice for backgrounds and text color */
+:root {
+    --main-bg-color: #b2b2b2;
+    --btn-bg-color: #fff;
+    --text-color: #b2b2b2;
+}
+
+/*Boostarap Container width*/
+.container{
+    width: 70%;
+}
+
+/* Footer-module--1 Style*/
+.footer-module--1{
+    margin-top: 180px;
+    background-color: var(--main-bg-color);
+    color: #fff;
+    padding: 80px 0px 40px 0px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.8px;
+
+}
+
+/* Footer Heading */
+.footer-module--1 .heading{
+    text-transform: uppercase;
+    font-weight: 100;
+    margin: 20px 0px;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Footer Paragraph */
+.footer-module--1 .paragraph{
+    text-align: center;
+}
+
+/* Footer Button */
+.footer-module--1 .button{
+    padding: 40px 0px;
+    text-align: center;
+    
+}
+
+.footer-module--1 .button .btn{
+    padding: 15px 60px;
+    background-color: var(--btn-bg-color);
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.footer-module--1 .button .btn:hover{
+    opacity: 0.9;
+}
+
+/* Footer DownStairs */
+.footer-module--1 .downstairs{
+    border-top: 1px solid #fff;
+    padding: 40px 0px;
+}
+
+.footer-module--1 .downstairs .left{
+    text-align: left;
+}
+
+.footer-module--1 .downstairs .left ul{
+    margin-left: -1.8rem;
+}
+
+.footer-module--1 .downstairs .left ul >li{
+    display: inline-block;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+.footer-module--1 .downstairs .left ul >li:hover{
+    opacity: 0.9;
+}
+
+
+.footer-module--1 .downstairs .right{
+    text-align: right;
+}
+
+.footer-module--1 .downstairs .right ul >li{
+    display: inline-block;
+    margin-left: 60px;
+    font-weight: 600;
+    
+}
+
+.footer-module--1 .downstairs .right ul >li:hover{
+    opacity: 0.9;
+    
+}
+
+@media (max-width: 768px) {
+    .footer-module--1 .downstairs .left{
+        text-align: center;
+    }
+
+    .footer-module--1 .downstairs .right{
+        display: none;
+    }
+  }
+
+/* Footer Copyright */
+.footer-module--1  .copyright{
+    text-align: center;
+    font-weight: 600;
+}

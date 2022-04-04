@@ -1,0 +1,91 @@
+/* Reference Google fonts OpenSans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+
+/*Variable Choice for backgrounds and text color */
+:root {
+    --main-bg-color: #b2b2b2;
+    --subscribe-bg-color: #a7a6a6;
+    --text-color: #fff;
+}
+
+
+
+/* Footer-module--2 Style*/
+.footer-module--2{
+    margin-top: 180px;
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
+    padding: 0px 0px 40px 0px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.8px;
+}
+
+/* Footer Subscribe*/
+.footer-module--2 .subscribe{
+    background-color: var(--subscribe-bg-color);
+    padding: 40px 0px;
+    text-transform: uppercase;
+    
+
+}
+
+.footer-module--2 .subscribe .deals{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+/* .footer-module--2 .subscribe .signup{
+} */
+
+.footer-module--2 .subscribe .signup .form-control {
+    width: 80%;
+    padding: 15px;  
+    display: inline;
+}
+
+.footer-module--2 .subscribe .signup .btn{
+    padding: 15px 34px;
+    background-color: var(--main-bg-color);
+    border-color: var(--main-bg-color);
+}
+
+.footer-module--2 .subscribe .signup .btn:hover{
+    opacity: 0.9;
+}
+
+/*Footer Downstair*/
+
+.footer-module--2 .downstair{
+    border-bottom: solid 1px #fff;
+    padding: 20px 0px;
+}
+
+.footer-module--2 .downstair .heading{
+    padding: 20px 0px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.footer-module--2 .downstair ul{
+    list-style-type: none;
+    margin-left: -30px;
+}
+
+.footer-module--2 .downstair ul a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-module--2 .downstair ul li a:hover{
+    opacity: 0.9;
+}
+
+/*Footer Copyright*/
+.footer-module--2 .copyright {
+    padding: 20px 0px;
+    text-align: center;
+}
