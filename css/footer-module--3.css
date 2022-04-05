@@ -1,0 +1,57 @@
+/* Reference Google fonts OpenSans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/*Variable Choice for backgrounds and text color */
+:root {
+    --main-bg-color: #b2b2b2;
+    --connect-bg-color:#fff;
+    --connect-text-color:#b2b2b2;
+    --text-color: #fff;
+}
+
+
+/* Footer-module--3 Style*/
+.footer-module--3{
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
+    padding: 40px 0px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.8px;
+    text-align: center;
+}
+
+/* Footer Connect */
+.footer-module--3 .connect li{
+    display: inline-block;
+    font-size: 24px;
+    margin-right: 40px;
+    border-radius: 100%;
+    width:50px;
+    height:50px;
+    padding: 8px 0px;
+    background-color: var(--connect-bg-color);
+    color: var(--connect-text-color);
+}
+
+.footer-module--3 .connect li:hover{
+    opacity: 0.9;
+}
+
+/* Footer Quick Links */
+.footer-module--3 .quick-links{
+    padding: 10px 0px;
+}
+
+.footer-module--3 .quick-links li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-module--3 .quick-links li:hover{
+    font-weight: 600;
+}
+
+/*Footer Copyright */
+.footer-module--3 .copyright{
+    font-weight: 600;
+}
