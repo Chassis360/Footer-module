@@ -1,0 +1,76 @@
+/* Reference Google fonts Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.container{
+    width: 70%;
+}
+
+/*Footer Module 4 Style*/
+.footer-module--4{
+    background-color: #b2b2b2;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.4px; 
+}
+
+/*Footer Buynow*/
+.footer-module--4 .buynow{
+    background-color: #dbdbdb;
+    padding: 40px 0px;
+    color: #fff;
+}
+
+.footer-module--4 .buynow .heading{
+    font-size: 28px;
+}
+
+.footer-module--4 .buynow .btn{
+    padding: 15px 60px;
+    background-color: #fff;
+    color: #dbdbdb;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.footer-module--4 .buynow .btn:hover{
+    opacity: 0.9;
+}
+
+/*Footer Quicklinks*/
+.footer-module--4 .quick-links {
+    padding: 40px 0px;
+    background-color: #b2b2b2;
+    font-size: 16px;
+}
+
+.footer-module--4 .quick-links .heading{
+    padding: 20px 0px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #dbdbdb;
+    font-weight: 600;
+}
+
+.footer-module--4 .quick-links ul{
+    list-style-type: none;
+    margin-left: -30px;
+    color: #fff;
+
+}
+
+.footer-module--4 .quick-links ul li:hover{
+    opacity: 0.9;
+
+}
+/*Footer Copyright*/
+.footer-module--4 .copyright{
+    background-color: #b2b2b2;
+}
+
+.footer-module--4 .copyright .container{
+    border-top: #dbdbdb solid 1px;
+    padding: 40px 0px;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+}

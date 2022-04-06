@@ -28,8 +28,8 @@
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/Chassis360)
-- Twitter: [@twitterhandle](https://twitter.com/devsam247)
+- GitHub: [@Chassis360](https://github.com/Chassis360)
+- Twitter: [@devsam247](https://twitter.com/devsam247)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/sam-bello-327632142/)
 
 
