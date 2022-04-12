@@ -1,0 +1,107 @@
+/* Reference Google fonts Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*Bootstrap Container Resize*/
+.container{
+    width: 70%;
+}
+
+/*Footer Module 5 Style*/
+.footer-module--5{
+    padding: 40px 0px;
+    background-color: #b2b2b2;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.4px; 
+}
+
+/*Footer Quick Info*/
+.footer-module--5 .quick-info{
+    list-style-type: none;
+    margin-left: -30px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.footer-module--5 .quick-info p{
+    font-size: 14px;
+    color: #dbdbdb;
+    padding: 8px 0px;
+}
+
+/*Footer Subscribe*/
+.footer-module--5 .subscribe{
+    color: #fff;
+    font-size: 24px;
+}
+
+.footer-module--5 .subscribe .form-control{
+    background-color: transparent;
+    margin-top: 20px;
+    border-radius: 0px;
+    border: none;
+    border-bottom: solid 2px #fff;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.4px; 
+
+}
+
+.footer-module--5 .subscribe .form-control:focus{
+    box-shadow: none;
+}
+
+.footer-module--5 .subscribe .form-control::placeholder{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.4px; 
+}
+
+.footer-module--5 .subscribe .form-check{
+    margin-top: 14px;
+    font-size: 14px;
+    color: #dbdbdb;
+}
+
+.footer-module--5 .subscribe .btn-primary{
+    color: #fff;
+    background-color: #dbdbdb;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 0px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer-module--5 .subscribe .btn-primary:hover{
+    opacity: 0.9;
+}
+.footer-module--5 .subscribe .btn-primary:active{
+    box-shadow: none;
+}
+
+/*Footer Quick Links*/
+.footer-module--5 .quick-links {
+    text-align: center;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-module--5 .quick-links a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-module--5 .quick-links ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-module--5 .quick-links ul li:last-child {
+  margin-left: 30px;
+}
+
+.footer-module--5 .quick-links ul li:hover{
+    opacity: 0.9;
+}
