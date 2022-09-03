@@ -1,0 +1,104 @@
+/* Reference Google fonts Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*Bootstrap Container Resize*/
+.container{
+    width: 70%;
+}
+
+/*Footer Module 6 Style*/
+.footer-module--6{
+    background-color: #b2b2b2;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1.0px; 
+}
+
+/* Footer Module Headers*/
+.footer-module--6 h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+/* Footer Module Home Section*/
+.footer-module--6 .container .home-section{
+    background-color: #ccc;
+    padding: 20px 20px 60px 20px;
+    color: #fff;
+    
+}
+
+/* Footer Module footer top*/
+.footer-module--6 .container .footer-top{
+    border-bottom: #ccc solid 1px;
+    padding: 20px 0px;
+}
+
+.footer-module--6 .container .footer-top .follow-us {
+    list-style: none;
+    margin-left: -30px;
+    
+}
+
+.footer-module--6 .container .footer-top .follow-us li{
+    display: inline;
+    margin-right: 20px
+}
+
+.footer-module--6 .container .footer-top .follow-us  li a i{
+    font-size: 20px;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.footer-module--6 .container .footer-top .follow-us  li a i:hover{
+    opacity: 0.8;
+}
+
+.footer-module--6 .container .footer-top .subscribe{
+    display: flex;
+}
+
+.footer-module--6 .container .footer-top .subscribe input{
+    border-radius: 0px;
+    background-color: #ccc;
+    color: #fff;
+}
+
+.footer-module--6 .container .footer-top .subscribe input:focus{
+    border-color: #ddd;
+    box-shadow: none;
+}
+
+
+.footer-module--6 .container .footer-top .subscribe input::placeholder{
+    color: #fff;
+}
+
+.footer-module--6 .container .footer-top .subscribe button{
+    border-radius: 0px;
+    border: none;
+    background-color: #fff;
+    color: #b2b2b2;
+}
+.footer-module--6 .container .footer-top .subscribe button:hover{
+    opacity: 0.8;
+}
+
+/* Footer Module footer bottom*/
+.footer-module--6 .container .footer-bottom{
+    padding: 20px 0px;
+}
+
+
+.footer-module--6 .container .quick-nav{
+    list-style: none;
+    margin-left: -30px;
+}
+
+.footer-module--6 .container .quick-nav a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-module--6 .container .quick-nav a:hover{
+    opacity: 0.8;
+}
