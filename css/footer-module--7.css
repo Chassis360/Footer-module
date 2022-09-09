@@ -1,0 +1,64 @@
+/* Reference Google fonts Raleway */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@media (min-width: 768px) {
+    .bottom-footer .right-side ul{
+        text-align: right;
+    }
+}
+
+/*Bootstrap Container Resize*/
+.container{
+    width: 70%;
+}
+
+/*Footer Module 7 Style*/
+.footer-module--7{
+    background-color: #b2b2b2;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1.0px; 
+    padding: 40px 0px;
+}
+
+.footer-module--7 h1, h2, h3, h4, h5, h6{
+    color: #fff;
+    font-weight: 600;
+}
+
+.footer-module--7 p {
+    color: #fff;
+}
+
+.bottom-footer{
+    border-top: solid 2px #fff;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+
+.bottom-footer .right-side ul{
+    margin-left: -35px;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+.bottom-footer .right-side li{
+    display:inline;
+    margin-right: 40px;
+    
+}
+
+.bottom-footer .right-side li:last-child{
+    margin-right: 0px !important;
+}
+
+.bottom-footer .right-side li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.bottom-footer .right-side li a:hover{
+    opacity: 0.8;
+}
